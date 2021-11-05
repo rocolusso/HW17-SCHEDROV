@@ -1,0 +1,113 @@
+.experience-services {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+
+
+
+  #carouselExampleCaptions {
+
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+  }
+
+
+ .services {
+
+
+
+   .services-title{
+     padding-bottom: 68px;
+
+     h3 {
+       font-size: 42px;
+       max-width: 768px;
+
+       background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
+
+     }
+
+
+   }
+
+   .services-grid {
+
+
+     .services-item{
+       padding-bottom: 30px;
+
+       .services-item-image{
+         margin-bottom: 20px;
+
+       }
+
+       .services-item-title{
+        color:#24A3FF;
+       ;
+       }
+
+       .services-item-text{
+         color: white;
+
+       }
+
+     }
+
+
+
+   }
+
+
+ }
+
+
+
+
+
+
+
+
+}
+
+
+
+.experience-services-shadow-wrapper{
+
+  .experience-services-shadows{
+
+    background: white;
+    .experience-services-shadow1{
+      max-width: 1400px;
+      height: 10px;
+      margin: 0 auto;
+      img {
+
+
+
+      }
+
+    }
+    .experience-services-shadow2{
+      max-width: 1360px;
+      height: 10px;
+      margin: 0 auto;
+      img {
+
+
+
+      }
+
+    }
+
+  }
+
+
+
+}

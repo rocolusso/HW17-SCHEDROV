@@ -1,0 +1,63 @@
+@media (max-width: 335px) {
+
+
+  .experience-services {
+
+
+    .services {
+
+
+      .services-grid {
+
+
+        .services-item{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: space-between;
+
+
+          .services-item-image{
+
+             img{
+               width: 62px;
+               height: 62px;
+             }
+
+          }
+
+          .services-item-title{
+            max-width: 75%;
+
+            h5 {
+
+              font-size: 18px;
+            }
+
+
+          }
+
+          .services-item-text{
+
+
+          }
+
+        }
+
+
+
+      }
+
+
+    }
+
+
+
+
+
+  }
+
+
+
+
+}
