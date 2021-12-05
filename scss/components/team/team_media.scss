@@ -1,34 +1,39 @@
-
-@media (max-width: 335px) {
-
-
-  .team-clients{
-
-    .clients {
-
-      #carouselExampleIndicators{
+@media (max-width:1400px) {
 
 
-        .carousel-inner {
+  .team {
 
-          .carousel-item {
 
-            .carousel-item-image {
-              align-self: flex-end;
-              padding-right: 10px;
-              img {
-                border-radius: 40% 40% ;
-              }
-            }
+    .team-item {
 
-            .carousel-item-info {
+      .team-item-image {
 
-              margin: 0;
-            }
+      }
+      .team-item-content {
+        max-width: 60%;
 
+
+
+
+        .item-sub {
+
+        }
+
+        .item-title {
+
+        }
+
+
+        .item-author {
+
+
+          .item-author-title {
 
           }
 
+          .item-author-subtitle {
+
+          }
 
 
         }
@@ -42,9 +47,145 @@
 
   }
 
+}
+@media (max-width:1200px) {
 
 
+  .team {
+
+
+    .team-item {
+
+      .team-item-image {
+
+      }
+      .team-item-content {
+        max-width: 50%;
+
+
+
+
+        .item-sub {
+
+        }
+
+        .item-title {
+
+        }
+
+
+        .item-author {
+
+
+          .item-author-title {
+
+          }
+
+          .item-author-subtitle {
+
+          }
+
+
+        }
+
+
+      }
+
+
+    }
+
+
+  }
 
 }
+@media (max-width: 992px) {
 
 
+  .team {
+
+    .team-item {
+
+      .team-item-image {
+        align-self: end;
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+
+        }
+      }
+
+
+      .team-item-content{
+        max-width: 91%;
+
+      }
+
+
+
+    }
+
+  }
+
+}
+@media (max-width: 768px) {
+
+
+  .team {
+
+    .team-item {
+
+      .team-item-image {
+        align-self: end;
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+
+        }
+      }
+
+
+      .team-item-content{
+        max-width: 80%;
+
+      }
+
+
+
+    }
+
+  }
+
+}
+@media (max-width: 576px) {
+
+
+  .team {
+
+    .team-item {
+
+      .team-item-image {
+        align-self: end;
+        img {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+
+        }
+      }
+
+
+      .team-item-content{
+        max-width: 70%;
+        padding: 30px 0 0 10px;
+
+      }
+
+
+
+    }
+
+  }
+
+}

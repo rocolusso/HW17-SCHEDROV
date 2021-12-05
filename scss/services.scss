@@ -1,13 +1,15 @@
 @import "./common";
 @import "./components/header";
-@import "./components/splash";
-@import "./components/experience";
+@import "./components/services";
 @import "./components/team";
 @import "./components/clientsafter";
-@import "./components/publications";
 @import "./components/footer";
 
 
-
-
-
+footer {
+  .footer-top-wrapper{
+    .separator{
+      border-color: white;
+    }
+  }
+}

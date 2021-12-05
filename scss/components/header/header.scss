@@ -1,8 +1,11 @@
 header {
-  margin-top: 50px;
+  padding-top: 50px;
   width: 100%;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
 
 
   .header-top-wrapper{
@@ -103,11 +106,27 @@ header {
         }
       }
 
+    }
 
+    #navbarSupportedContent.justify-content-end.navbar-collapse.collapse.show{
+
+      ul {
+
+        li {
+
+          a {
+            color: white;
+            background: #24A3FF;
+
+          }
+
+
+
+        }
+      }
 
 
     }
-
 
 
 
@@ -119,9 +138,31 @@ header {
   .navbar-light {
 
 
+    .red-slash{
+      font-size: 32px;
+      color: #F0145A;
+    }
+
+    .page-tittle{
+      font-size: 32px;
+      color: white;
+      font-weight: 400;
+
+    }
+
     .navbar-brand{
       padding: 0;
       margin: 0;
+
+     .logo-main{
+
+      }
+      .slash{
+        width: 22px;
+      }
+      .logo-pages{
+        width: 41px;
+      }
 
       img {
         width: 152px;
@@ -142,6 +183,8 @@ header {
 
 
   }
+
+
 
 
 

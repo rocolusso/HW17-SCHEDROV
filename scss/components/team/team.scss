@@ -1,117 +1,241 @@
 .team-clients {
-
-  background: white;
-
-
+  margin: 30px 0;
 
   .team {
+    margin-bottom: 80px;
 
-    margin-top: 50px;
+  .carousel-indicators{
+    bottom: -50px;
 
 
-    #carouselExampleIndicators {
+  }
 
-      margin-bottom: 200px;
+  .carousel-indicators [data-bs-target]{
 
-      .carousel-indicators{
+    text-indent: 0;
 
-        bottom: -55px;
+  }
+
+  .team-item {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5FA;
+    border-radius: 12px;
+    .team-item-image {
+
+    }
+    .team-item-content {
+      max-width: 67%;
+      padding: 60px 0 0 40px;
+
+
+
+      .item-sub {
+        max-width: 100%;
+        color: #24A3FF;
+        margin-bottom: 3px;
       }
 
-      .carousel-inner{
-
-        background: #F5F5FA;
-        border-radius: 12px;
-
-
-        .carousel-item {
-          display: flex;
-
-          .carousel-item-image{
-
-          }
-
-          .carousel-item-info{
-            margin: 60px 40px 0 60px;
-            max-width: 827px;
-
-            nav {
-
-              .breadcrumb {
-
-                li {
-                  color: #24A3FF;
-                ;
-
-                }
-              }
-            }
+      .item-title {
+        max-width: 100%;
+        font-size: 42px;
+        background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
 
 
+      .item-author {
+        color: #B3B3BA;
 
-            .carousel-item-title {
-                padding-bottom: 20px;
-              h3 {
+        .item-author-title {
+          font-size: 18px;
+        }
 
-                background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-              }
-
-            }
-
-            .carousel-item-sub-title{
-              color: #B3B3BA;
-
-
-            }
-
-            .carousel-item-sub-sub-title{
-
-              color: #B3B3BA;
-
-
-
-            }
-
-          }
-
-
-
-
+        .item-author-subtitle {
+          font-size: 16px;
         }
 
 
-
       }
 
 
     }
 
 
-
+  }
 
 
   }
-  .clients {
 
+
+  .clients {
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 12px;
 
+    .col-lg-4{
+      padding-left: 0;
+      padding-right: 5px;
 
-    .clients-title{
-      background: #F5F5FA;
-      max-width: 433px;
+
+
+
+    .clients-title {
       padding: 20px 0 20px 20px;
-      h5{
-        font-size: 14px;
-      }
+      background-color: #F5F5FA;
+      color: $accentcolor;
+      margin-bottom: 5px;
 
+      h5 {
+      font-size: 14px ;
+      }
 
     }
 
 
-  }
+    .clients-item1 {
 
+      background-color: #F5F5FA;
+      padding: 48px 20px 0 20px;
+      margin-bottom: 5px;
+      .item1-tittle {
+        color: #686887;
+        margin-bottom: 20px;
+        h3 {
+          font-size: 24px;
+        }
+
+      }
+
+      .item1-author {
+        color:  #B3B3BA;
+      }
+
+    }
+
+    .clients-item2 {
+
+      background-color: #F5F5FA;
+      padding: 117px 20px 0 20px;
+      margin-bottom: 5px;
+
+      .item2-tittle {
+        color: #686887;
+        margin-bottom: 20px;
+        h3 {
+          font-size: 24px;
+        }
+
+      }
+
+      .item2-author {
+        color:  #B3B3BA;
+      }
+
+    }
+
+      .clients-item3 {
+
+        background-color: #F5F5FA;
+        padding: 117px 20px 0 20px;
+         margin-bottom: 5px;
+        .item3-tittle {
+          color: #686887;
+          margin-bottom: 20px;
+          h3 {
+            font-size: 24px;
+          }
+
+        }
+
+        .item3-author {
+          color:  #B3B3BA;
+        }
+
+      }
+
+    }
+
+    .col-lg-3 {
+      padding-left: 0;
+      padding-right: 5px;
+
+      .clients-item4 {
+
+        background-color: #F5F5FA;
+        padding: 20px 20px 0 20px;
+        margin-bottom: 5px;
+        .item4-tittle {
+          color: #686887;
+          margin-bottom: 20px;
+          h3 {
+            font-size: 24px;
+          }
+
+        }
+
+        .item4-author {
+          color:  #B3B3BA;
+        }
+
+      }
+
+    }
+
+    .col-lg-4 {
+      padding-left: 0;
+      padding-right: 5px;
+      .clients-item5 {
+
+        background-color: #F5F5FA;
+        padding: 76px 20px 0 20px;
+        margin-bottom: 5px;
+        .item5-tittle {
+          color: #686887;
+          margin-bottom: 20px;
+          h3 {
+            font-size: 24px;
+          }
+
+        }
+
+        .item5-author {
+          color:  #B3B3BA;
+        }
+
+      }
+    }
+
+    .col-lg-5 {
+      padding-left: 0;
+      padding-right: 5px;
+
+      .clients-item6 {
+
+        background-color: #F5F5FA;
+        padding: 76px 20px 0 20px;
+        margin-bottom: 5px;
+        .item6-tittle {
+          color: #686887;
+          margin-bottom: 20px;
+          h3 {
+            font-size: 24px;
+          }
+
+        }
+
+        .item6-author {
+          color:  #B3B3BA;
+        }
+
+      }
+    }
+
+
+
+
+  }
 
 
 
