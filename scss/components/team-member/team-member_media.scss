@@ -1,0 +1,252 @@
+@media (max-width: 1200px) {
+
+
+  .team-member {
+
+
+
+    .team-member_wrapper{
+
+
+      .team_item{
+
+
+        .item-img{
+          img {
+
+          }
+        }
+
+        .item-content{
+           max-width: 520px;
+
+          .item-title{
+            h2 {
+              font-size: 42px;
+              font-weight: 700;
+              background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+
+          .item-links{
+
+
+
+
+            .item-sub-title{
+
+
+            }
+
+            .item-link {
+
+
+
+
+            }
+
+
+
+          }
+
+          .separator-line{
+
+          }
+
+          .article {
+
+            p {
+
+            }
+
+            .article-title {
+
+
+              h3 {
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
+@media (max-width: 992px) {
+
+
+  .team-member {
+
+
+
+    .team-member_wrapper{
+
+
+      .team_item{
+
+
+        .item-img{
+          margin: 0 auto;
+          img {
+
+          }
+        }
+
+        .item-content{
+          max-width: 100%;
+          padding-left: 0;
+
+          .item-title{
+            h2 {
+              font-size: 42px;
+              font-weight: 700;
+              background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+
+          .item-links{
+
+
+
+
+            .item-sub-title{
+
+
+            }
+
+            .item-link {
+
+
+
+
+            }
+
+
+
+          }
+
+          .separator-line{
+
+          }
+
+          .article {
+
+            p {
+
+            }
+
+            .article-title {
+
+
+              h3 {
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}
+@media (max-width: 576px) {
+
+
+  .team-member {
+
+
+
+    .team-member_wrapper{
+
+
+      .team_item{
+
+
+        .item-img{
+          margin: 0 auto;
+          img {
+         width: 100%;
+          }
+        }
+
+        .item-content{
+
+
+          .item-title{
+            h2 {
+              font-size: 42px;
+              font-weight: 700;
+              background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+
+          .item-links{
+            flex-direction: column;
+            .item-sub-title{
+
+
+            }
+
+            .item-link {
+              padding-left: 0;
+
+
+
+            }
+
+
+
+          }
+
+          .separator-line{
+
+          }
+
+          .article {
+
+            p {
+
+            }
+
+            .article-title {
+
+
+              h3 {
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+}

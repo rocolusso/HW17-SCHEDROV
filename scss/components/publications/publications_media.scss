@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+  .publications {
+    .publications-grid {
+      .publications-item {
+        .publications-item-wrapper{
+          .public-item-line{
+            display: none;
+          }
+          .public-item-content {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+.publications-page{
+  padding-top: 180px;
+
+    .publications-page_wrapper{
+      background-color: #F5F5FA;
+
+      .tabs-content{
+        padding-top: 50px;
+       #pills-tab {
+
+         margin: 0 auto;
+         display: flex;
+         justify-content: center;
+         width: 260px;
+         height: 40px;
+         background: #E6E6F0;
+         align-items: center;
+         border-radius: 12px;
+
+         .nav-item{
+           &:last-child{
+             padding-left: 14px;
+           }
+
+           .nav-link {
+             padding: 3px 20px 3px 20px;
+             border-radius: 10px;
+             color: #323264;
+
+
+           ;
+           }
+
+           .nav-link.active {
+             padding: 3px 20px 3px 20px;
+             border-radius: 10px;
+             color: #323264;
+             background-color: white;
+
+
+           ;
+           }
+         }
+
+
+
+
+       }
+
+        #pills-tabContent{
+          padding-top: 10px;
+
+          #pills-home{
+            .team-clients {
+              .publications {
+                padding: 0;
+                .publications-grid{
+                  button {
+
+                    position: static;
+
+                  }
+                  .gradient{
+                     display: none;
+                  }
+
+                }
+
+              }
+            }
+
+          }
+
+          #pills-profile {
+            .team-clients {
+              .publications {
+                padding: 0;
+                .publications-grid{
+                  button {
+
+                    position: static;
+
+                  }
+                  .gradient{
+                    display: none;
+                  }
+
+                }
+
+              }
+            }
+          }
+        }
+
+      }
+
+
+
+        }
+
+
+
+}

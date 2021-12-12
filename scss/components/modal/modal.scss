@@ -1,0 +1,103 @@
+.modalMain{
+  #exampleModalCenter {
+    .modal-dialog.modal-dialog-centered{
+      .modal-content{
+
+        .modal-header{
+          display: none;
+          #exampleModalLongTitle{
+            h3 {
+              font-size: 32px;
+              background: -webkit-linear-gradient(
+                              90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              padding-bottom: 10px;
+            }
+          }
+        }
+        .modal-body{
+
+          .contact-form{
+            align-self: center;
+            background-color: #F5F5FA;
+            border-radius: 12px;
+            .contact-form_wrapper{
+              padding: 20px;
+              .contact-form-header{
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: end;
+                button {
+                  border: 0;
+                  padding: 0;
+                  height: 20px;
+                  background-color: none;
+                }
+
+              }
+              h3 {
+                font-size: 32px;
+                background: -webkit-linear-gradient(
+                                90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding-bottom: 10px;
+              }
+
+
+              form {
+                input {
+                  width: 100%;
+                  padding: 10px;
+                  border-radius: 8px;
+                  outline: none;
+                  border: none;
+                  font-size: 18px;
+                  color:  #B3B3BA;
+                  margin-bottom: 20px;
+                }
+                textarea {
+                  width: 100%;
+                  padding: 10px;
+                  border-radius: 8px;
+                  outline: none;
+                  border: none;
+                  font-size: 18px;
+                  color:  #B3B3BA;
+                  resize: none;
+                  height: 180px;
+                  margin-bottom: 20px;
+
+                }
+                .submit {
+                  display: flex;
+                  justify-content: center;
+                  button {
+
+                    color: white;
+                    background-color: #24A3FF;
+                    border: none;
+                    border-radius: 12px;
+                    height: 50px;
+                    width: 250px;
+                    box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+                    font-size: 14px;
+
+                  }
+                }
+
+
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+
+
+
+  }
+}

@@ -1,0 +1,21 @@
+@import "./common";
+@import "./components/header_black";
+@import "./components/contact";
+@import "./components/modal";
+@import "./components/about-hero";
+@import "./components/experience";
+@import "./components/team";
+@import "./components/clientsafter";
+@import "./components/clientsList";
+@import "./components/publications";
+@import "./components/footer";
+
+footer{
+    background: #F5F5FA;
+  .footer-top-wrapper {
+    .separator {
+      border: 4px solid transparent;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+@media (max-width: 576px) {
+
+  .team-grid{
+    .team-grid_wrapper{
+
+      .team-grid-block{
+
+
+        .grid-item{
+        display: flex;
+
+
+
+          .grid-item-img{
+
+           width: 50%;
+
+            img {
+              width: 100%;
+            }
+
+          }
+
+          .grid-item-tittle{
+            width: 50%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding-left:20px ;
+            padding-top: 20px;
+
+
+            .item-title-block{
+
+              padding-bottom: 30px;
+
+              .item-title{
+                h4 {
+                 font-size: 14px;
+                }
+              }
+              .item-sub-title{
+              font-size: 12px;
+                margin-bottom: 0;
+
+              }
+            }
+
+            .item-thumb{
+
+            }
+
+
+
+          }
+
+        }
+
+
+      }
+    }
+  }
+
+
+}

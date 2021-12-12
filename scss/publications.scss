@@ -1,0 +1,22 @@
+@import "./common";
+@import "./components/header_black";
+@import "./components/publications_page";
+@import "./components/team";
+@import "./components/about-hero";
+@import "./components/experience";
+@import "./components/clientsafter";
+@import "./components/clientsList";
+@import "./components/publications";
+@import "./components/footer";
+
+body {
+  background-color: #F5F5FA;
+}
+header {
+  background-color: white;
+}
+
+footer {
+  background: #F5F5FA;
+
+}

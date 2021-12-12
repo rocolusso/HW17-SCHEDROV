@@ -1,0 +1,32 @@
+.clientsList {
+  padding-top: 40px;
+  margin: 0 auto;
+
+  .title-block {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+.clientsGall {
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .clientsItem {
+
+    img {
+      &:hover {
+
+        animation: bounceIn;
+        animation-duration: .5s;
+      }
+    }
+  }
+
+}
+
+
+
+}

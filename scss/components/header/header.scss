@@ -33,6 +33,7 @@ header {
 
               li {
 
+
                 margin: 0 5px 0 0;
 
                 a {
@@ -46,6 +47,10 @@ header {
                   padding: 5px 7px;
 
                   }
+                .active {
+                      background-color:#F0145A;
+                    }
+
 
                 &:hover {
                   display: inline-block;
@@ -88,15 +93,15 @@ header {
     #navbarSupportedContent {
 
       ul {
-
         li {
 
           a {
             color: white;
 
             &:hover {
-              color:#F0145A;
+              color: white;
               transition: .3s;
+
             }
 
           }
@@ -104,6 +109,21 @@ header {
 
 
         }
+        .nav-item {
+          border-bottom: 2px solid transparent;
+          &:hover{
+          border-bottom: 2px solid white;
+            transition: 0.3s;
+        }
+        }
+        .nav-item-active {
+          border-bottom: 2px solid white;
+          a {
+            color:white;
+          }
+        }
+
+
       }
 
     }

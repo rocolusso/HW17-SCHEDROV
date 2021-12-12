@@ -6,6 +6,7 @@
     <title>HW-17-SCHEDROV</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
@@ -20,7 +21,7 @@
                     <li>
                         <div class="nav-lng">
                             <ul>
-                                <li><a href="#">УК</a></li>
+                                <li ><a class="active" href="#">УК</a></li>
                                 <li><a href="#">РУ</a></li>
                                 <li><a href="#">EN</a></li>
                             </ul>
@@ -51,7 +52,7 @@
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img class="logo-main" src="./img/Logo-min.svg">
+                    <img class="logo-main" src="./img/Logo-Min.svg">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -62,19 +63,19 @@
                 <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link " href="#">про нас</a>
+                            <a class="nav-link " href="./pages/about.html">про нас</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/services.html">послуги</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">команда</a>
+                            <a class="nav-link" href="./pages/team.html">команда</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">публікації</a>
+                            <a class="nav-link" href="./pages/publications.html">публікації</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">контакти</a>
+                            <a class="nav-link" href="./pages/contact.html">контакти</a>
                         </li>
 
 
@@ -84,10 +85,7 @@
         </nav>
     </div>
 </header>
-
-
 <main>
-
     <div class="splash">
         <div class="container">
 
@@ -206,7 +204,7 @@
                                 <img src="./img/services-icon1.png" alt="services-icon1">
                             </div>
                             <div class="services-item-title">
-                                <h5>IT та електронна комерція</h5>
+                                <a href="./pages/servicepage.html"> <h5>IT та електронна комерція</h5></a>
                             </div>
                             <div class="services-item-text">
                                 <p>Нескінчений потік договорів, податкові питання,
@@ -223,8 +221,8 @@
                                 <img src="./img/services-icon2.png" alt="services-icon2">
                             </div>
                             <div class="services-item-title">
-                                <h5>Комплексний щоденний
-                                    юридичний супровід</h5>
+                                <a href="./pages/servicepage.html"><h5>Комплексний щоденний
+                                    юридичний супровід</h5></a>
                             </div>
                             <div class="services-item-text">
                                 <p>До того ж, з часом робота стане однотипною і нецікавою
@@ -241,7 +239,7 @@
                                 <img src="./img/services-icon3.png" alt="services-icon3">
                             </div>
                             <div class="services-item-title">
-                                <h5>Структуризація корпоративних відносин</h5>
+                                <a href="./pages/servicepage.html"><h5>Структуризація корпоративних відносин</h5></a>
                             </div>
                             <div class="services-item-text">
                                 <p>Замість просто надавати юридичні послуги, ми
@@ -257,7 +255,7 @@
                                 <img src="./img/services-icon4.png" alt="services-icon4">
                             </div>
                             <div class="services-item-title">
-                                <h5>Побудовa договірних відносин</h5>
+                                <a href="./pages/servicepage.html"><h5>Побудовa договірних відносин</h5></a>
                             </div>
                             <div class="services-item-text">
                                 <p>Раз на тиждень, чи тиждень на місяць у вас під боком є ваш власний юрист.
@@ -275,7 +273,7 @@
                                 <img src="./img/services-icon5.png" alt="services-icon5">
                             </div>
                             <div class="services-item-title">
-                                <h5>Захист бізнесу, інтелектуальної власності</h5>
+                                <a href="./pages/servicepage.html"><h5>Захист бізнесу, інтелектуальної власності</h5></a>
                             </div>
                             <div class="services-item-text">
                                 <p>А весь інший час він працюватиме над новими різноплановими проектами,
@@ -292,7 +290,7 @@
                                 <img src="./img/services-icon6.png" alt="services-icon6">
                             </div>
                             <div class="services-item-title">
-                                <h5>Судове представництво</h5>
+                                <a href="./pages/servicepage.html"><h5>Судове представництво</h5></a>
                             </div>
                             <div class="services-item-text">
                                 <p>Невелика компанія, середнього розміру, чи вже лідер ринку?
@@ -309,14 +307,16 @@
 
             </div>
         </div>
+        <div class="BGline1">
 
+        </div>
+        <div class="BGline2">
+
+        </div>
 
     </div>
-
     <div class="team-clients">
         <div class="container">
-
-
             <div class="row team">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 
@@ -326,7 +326,7 @@
                             <div class="team-item">
 
                                 <div class="team-item-image">
-                                    <img src="img/team1.jpg">
+                                    <img src="./img/team11.jpg">
                                 </div>
 
                                 <div class="team-item-content">
@@ -362,7 +362,7 @@
                             <div class="team-item">
 
                                 <div class="team-item-image">
-                                    <img src="img/team1.jpg">
+                                    <img src="./img/team1.jpg">
                                 </div>
 
                                 <div class="team-item-content">
@@ -398,7 +398,7 @@
                             <div class="team-item">
 
                                 <div class="team-item-image">
-                                    <img src="img/team1.jpg">
+                                    <img src="./img/team1.jpg">
                                 </div>
 
                                 <div class="team-item-content">
@@ -430,15 +430,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-indicators">
+                    <div class="new-indicators carousel-indicators">
+                   <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-                            <img src="./img/Ellipse.png">
                         </button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
-                            <img src="./img/Ellipse.png">
+
                         </button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
-                            <img src="./img/Ellipse.png">
+
                         </button>
                     </div>
                  </div>
@@ -529,10 +529,7 @@
 
 
         </div>
-
-
-    </div>
-
+         </div>
     <div class="clientsafter">
         <div class="container-fluid">
 
@@ -616,7 +613,63 @@
 
 
     </div>
+    <div class="clientsList">
+        <div class="container-fluid">
 
+            <div class="row justify-content-center">
+                <div class="col-lg-4 title-block">
+                    <h3>Вже довіряють нам</h3>
+                </div>
+            </div>
+
+
+            <div class="clientsGall">
+
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-1.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-2.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-3.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-4.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-5.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-6.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-7.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-8.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-9.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-10.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-11.png">
+                </div>
+                <div class="clientsItem">
+                    <img class="item-client" src="./img/Item-12.png">
+                </div>
+
+
+
+            </div>
+
+
+
+    </div>
+    </div>
     <div class="publications">
         <div class="container">
             <div class="row">
@@ -639,7 +692,7 @@
                         <div class="publications-item-wrapper">
 
                         <div class="public-item-title">
-                            Валютний контроль помер, хай живе валютний контроль!
+                            <a href="./pages/publications-entry.html">Валютний контроль помер, хай живе валютний контроль!</a>
                         </div>
 
                         <div class="public-item-date">
@@ -664,7 +717,7 @@
                         <div class="publications-item-wrapper">
 
                             <div class="public-item-title">
-                                Заповіт міленіала
+                                <a href="./pages/publications-entry.html">Заповіт міленіала</a>
                             </div>
 
                             <div class="public-item-date">
@@ -692,7 +745,7 @@
                         <div class="publications-item-wrapper">
 
                             <div class="public-item-title">
-                                Equity associate
+                                <a href="./pages/publications-entry.html">Equity associate</a>
                             </div>
 
                             <div class="public-item-date">
@@ -716,7 +769,7 @@
                         <div class="publications-item-wrapper">
 
                             <div class="public-item-title">
-                                Закон про мови: як зробити свій сайт відповідним
+                                <a href="./pages/publications-entry.html">Закон про мови: як зробити свій сайт відповідним</a>
                             </div>
 
                             <div class="public-item-date">
@@ -744,7 +797,7 @@
                         <div class="publications-item-wrapper">
 
                             <div class="public-item-title">
-                                Штраф для «Корпорації добра»: що буде з Google та іншими за порушення GDPR
+                                <a href="./pages/publications-entry.html">Штраф для «Корпорації добра»: що буде з Google та іншими за порушення GDPR</a>
                             </div>
 
                             <div class="public-item-date">
@@ -768,7 +821,7 @@
                         <div class="publications-item-wrapper">
 
                             <div class="public-item-title">
-                                Компенсація витрат на навчання дитини в дитячому садку та школі
+                                <a href="./pages/publications-entry.html"> Компенсація витрат на навчання дитини в дитячому садку та школі</a>
                             </div>
 
                             <div class="public-item-date">
@@ -788,7 +841,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <button>Ще публікації</button>
+                    <button onclick="window.location.href='./pages/publications.html'">Ще публікації</button>
                 </div>
 
                 <div class="gradient"></div>
@@ -798,16 +851,11 @@
 
 
         </div>
-
-
+    </div>
     </div>
 
-
-
-
-
-
 </main>
+
 
 <footer>
     <div class="footer-top-wrapper">
@@ -816,7 +864,7 @@
 
         <div class="footer-content">
 
-            <div class="footer-left">
+         <!--   <div class="footer-left">
 
                 <div class="row up">
                     <div class="col-lg-6">
@@ -850,6 +898,41 @@
             <div class="footer-right">
                 © 2021 ТОВ Юридична компанія «HLEGALS»
             </div>
+-->
+
+            <div class="leftFooter">
+
+                <div class="leftUp">
+                    <div class="left-item">
+                        <address>Одеса, Адміральський пр., 3</address>
+                    </div>
+                    <div class="left-item">
+                        <a href="#">Подивитися на мапі</a>
+                    </div>
+                </div>
+
+
+                  <div class="leftDown">
+                    <div class="left-item">
+                        <a href="#" ><img src="./img/fbfooter.png"></a>
+                    </div>
+                    <div class="left-item">
+                        <div class="phone">
+                            <a href="tel:+380503901591">+38 (050) 390 15 91</a>
+                        </div>
+                    </div>
+
+                    <div class="left-item">
+                        <a href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                    </div>
+                  </div>
+
+            </div>
+
+            <div class="rightFooter">
+                © 2021 ТОВ Юридична компанія «HLEGALS»
+            </div>
+
 
         </div>
 
@@ -861,9 +944,9 @@
 </footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 </body>

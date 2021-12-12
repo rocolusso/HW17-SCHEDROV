@@ -3,10 +3,30 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   margin: 0 auto;
-
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  position: relative;
 
+  .BGline1 {
+    position: absolute;
+    min-width: 99%;
+    border: 10px solid #CACADB;
+    bottom: -9px;
+    left: 0.5%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    z-index: -1;
+  }
+  .BGline2{
 
+    position: absolute;
+    min-width: 98%;
+    border: 10px solid #E7E7F2;
+    bottom: -18px;
+    left: 1%;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    z-index: -2;
+  }
 
   .experience {
 
@@ -45,14 +65,7 @@
     }
 
 
-
-
  }
-
-
-
-
-
 
 
 
@@ -84,9 +97,12 @@
 
    .services-grid {
 
-
      .services-item{
+
+
        padding-bottom: 30px;
+       animation: zoomIn;
+       animation-duration: 1s;
 
        .services-item-image{
          margin-bottom: 20px;
@@ -95,7 +111,15 @@
 
        .services-item-title{
         color:#24A3FF;
-       ;
+
+         a {
+           text-decoration: none;
+           &:hover {
+             color: #F0145A;
+
+           }
+         }
+
        }
 
        .services-item-text{

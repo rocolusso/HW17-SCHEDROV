@@ -39,7 +39,14 @@
 
 
       .public-item-title {
-        color: #24A3FF;;
+        a {
+          text-decoration: none;
+          color: #24A3FF;
+          &:hover {
+            color: #F0145A;
+          }
+        }
+
 
       }
 
@@ -76,6 +83,8 @@
       position: absolute;
       bottom: 170px;
       z-index: 1;
+      box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+      font-size: 14px;
 
     }
 

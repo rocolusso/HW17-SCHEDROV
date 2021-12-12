@@ -1,0 +1,59 @@
+.team-grid{
+  .team-grid_wrapper{
+
+    .team-grid-block{
+
+
+      .grid-item{
+        margin: 0 auto;
+
+
+
+        .grid-item-img{
+        margin-bottom: 20px;
+
+
+        }
+
+        .grid-item-tittle{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 413px;
+
+
+         .item-title-block{
+           display: flex;
+           flex-direction: column;
+           .item-title{
+             h4 {
+               font-size: 18px;
+               font-weight: 400;
+               color:  #323264;
+             }
+           }
+           .item-sub-title{
+            font-size: 16px;
+             color: #B3B3BA;
+             margin-bottom: 40px;
+
+           }
+         }
+
+          .item-thumb{
+            a {
+              display: block;
+            }
+
+          }
+
+
+
+        }
+
+      }
+
+
+    }
+  }
+}
