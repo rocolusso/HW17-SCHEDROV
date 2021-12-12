@@ -47,29 +47,33 @@
 
 
               form {
-                input {
+                label {
                   width: 100%;
-                  padding: 10px;
-                  border-radius: 8px;
-                  outline: none;
-                  border: none;
-                  font-size: 18px;
-                  color:  #B3B3BA;
-                  margin-bottom: 20px;
-                }
-                textarea {
-                  width: 100%;
-                  padding: 10px;
-                  border-radius: 8px;
-                  outline: none;
-                  border: none;
-                  font-size: 18px;
-                  color:  #B3B3BA;
-                  resize: none;
-                  height: 180px;
-                  margin-bottom: 20px;
+                  input {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 8px;
+                    outline: none;
+                    border: none;
+                    font-size: 18px;
+                    color:  #B3B3BA;
+                    margin-bottom: 20px;
+                  }
+                  textarea {
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 8px;
+                    outline: none;
+                    border: none;
+                    font-size: 18px;
+                    color:  #B3B3BA;
+                    resize: none;
+                    height: 180px;
+                    margin-bottom: 20px;
 
+                  }
                 }
+
                 .submit {
                   display: flex;
                   justify-content: center;
