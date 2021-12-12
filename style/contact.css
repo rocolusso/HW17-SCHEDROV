@@ -209,7 +209,10 @@ header .navbar-light .navbar-toggler {
   -webkit-text-fill-color: transparent;
   padding-bottom: 10px;
 }
-.contact .contact-form .contact-form_wrapper form input {
+.contact .contact-form .contact-form_wrapper form label {
+  width: 100%;
+}
+.contact .contact-form .contact-form_wrapper form label input {
   width: 100%;
   padding: 10px;
   border-radius: 8px;
@@ -219,7 +222,7 @@ header .navbar-light .navbar-toggler {
   color: #B3B3BA;
   margin-bottom: 20px;
 }
-.contact .contact-form .contact-form_wrapper form textarea {
+.contact .contact-form .contact-form_wrapper form label textarea {
   width: 100%;
   padding: 10px;
   border-radius: 8px;
@@ -242,20 +245,89 @@ header .navbar-light .navbar-toggler {
   border-radius: 12px;
   height: 50px;
   width: 250px;
-  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
   font-size: 14px;
 }
 
 .map .container-fluid {
   padding: 0;
 }
+.map .container-fluid iframe {
+  width: 100%;
+  height: 600px;
+}
 
-.modal .modal-dialog .modal-content .modal-header #exampleModalLongTitle h3 {
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-header {
+  display: none;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-header #exampleModalLongTitle h3 {
   font-size: 32px;
   background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-bottom: 10px;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form {
+  align-self: center;
+  background-color: #F5F5FA;
+  border-radius: 12px;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper {
+  padding: 20px;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper .contact-form-header {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: end;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper .contact-form-header button {
+  border: 0;
+  padding: 0;
+  height: 20px;
+  background-color: none;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper h3 {
+  font-size: 32px;
+  background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 10px;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #B3B3BA;
+  margin-bottom: 20px;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #B3B3BA;
+  resize: none;
+  height: 180px;
+  margin-bottom: 20px;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper form .submit {
+  display: flex;
+  justify-content: center;
+}
+.modalMain #exampleModalCenter .modal-dialog.modal-dialog-centered .modal-content .modal-body .contact-form .contact-form_wrapper form .submit button {
+  color: white;
+  background-color: #24A3FF;
+  border: none;
+  border-radius: 12px;
+  height: 50px;
+  width: 250px;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  font-size: 14px;
 }
 
 .about-hero .about-hero_wrapper {
